@@ -48,4 +48,17 @@ table {
   border-spacing: 0;
 }
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Gilroy", sans-serif;
+}
+
 /*# sourceMappingURL=main.css.map */
