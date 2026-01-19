@@ -18,8 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "sass src/scss:src/assets/css -w",
-    "sass:build": "sass scss:src/styles --style compressed"
+    "sass": "sass src/styles:src/assets/css src/pages:src/assets/css/pages src/components:src/assets/css/components --watch",
+    "sass:build": "sass src/styles:src/assets/css src/pages:src/assets/css/pages src/components:src/assets/css/components --style=compressed"
   },
   "eslintConfig": {
     "extends": [
