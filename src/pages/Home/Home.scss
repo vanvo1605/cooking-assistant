@@ -1,4 +1,4 @@
-@use '../../styles/abstracts';
+@use "../../styles/abstracts";
 
 .container {
   --grid-gutter-x: 0 !important;
@@ -38,9 +38,13 @@
 
   &__heading {
     margin: 14px 0;
-    font-size: 2.8rem;
+    font-size: 3.8rem;
     font-weight: 600;
     color: white;
+
+    @include abstracts.screen(lg) {
+      font-size: 2.8rem;
+    }
 
     @include abstracts.screen(sm) {
       font-size: 1.8rem;
@@ -48,9 +52,13 @@
   }
 
   &__text {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     color: #c8bbbb;
     margin-bottom: 20px;
+
+    @include abstracts.screen(lg) {
+      font-size: 1.2rem;
+    }
 
     @include abstracts.screen(sm) {
       font-size: 0.9rem;
@@ -66,12 +74,20 @@
       display: none;
     }
   }
-}
 
-.hero-summary__list-item {
-  font-size: 1rem;
-  color: #f0e3e3;
-  padding: 1px 0;
+  &__list-item {
+    font-size: 2.8rem;
+    color: #f0e3e3;
+    padding: 1px 0;
+
+    @include abstracts.screen(lg) {
+      font-size: 1.8rem;
+    }
+
+    @include abstracts.screen(sm) {
+      font-size: 0.8rem;
+    }
+  }
 }
 
 .hero-summary__list-item::before {
@@ -82,11 +98,21 @@
 
 .action-btn {
   padding: 6px 30px;
-  font-size: 1rem;
+  font-size: 2.2rem;
   color: white;
   border: 2px solid white;
   background-color: transparent;
   cursor: pointer;
+
+  @include abstracts.screen(lg) {
+    font-size: 1.6rem;
+    padding: 6px 20px;
+  }
+
+  @include abstracts.screen(sm) {
+    font-size: 1.2rem;
+    padding: 6px 20px;
+  }
 }
 
 .step {
