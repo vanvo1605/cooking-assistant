@@ -8,7 +8,7 @@ export default class Header extends Component {
       <div className='top-bar'>
         {/* Logo */}
         <img src={icon} alt="cooking assistant logo" className="logo"/>
-        <h1>Cooking Assistant</h1>
+        <h1 className="web-name">GoMango</h1>
       </div>
     )
   }

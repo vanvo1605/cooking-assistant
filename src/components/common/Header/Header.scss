@@ -1,19 +1,25 @@
 .top-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
 }
 
 .top-bar h1 {
-    margin-left: 10px;
-    font-size: 2.4rem;
-    color: #fff;
+  margin-left: 10px;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .logo {
-    width: 50px;
-    object-fit: contain;
+  width: 50px;
+  object-fit: contain;
+}
+
+.web-name {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
 }

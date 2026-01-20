@@ -16,7 +16,7 @@ export default class Home extends Component {
           <Header></Header>
           <div className="hero-summary__desc">
             <p className="hero-summary__intro">
-              Too tired to think? We're got you.
+              Too tired to think? We've got you.
             </p>
             <h2 className="hero-summary__heading">
               Dinner decided in 60 seconds.

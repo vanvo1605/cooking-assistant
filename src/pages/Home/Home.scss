@@ -1,3 +1,8 @@
+.container {
+    --grid-gutter-x: 0 !important;
+    padding: 0 !important;
+}
+
 .hero-summary {
     position: relative;
 }
@@ -22,6 +27,11 @@
     margin: 0 50px;
     color: rgb(29 62 29);
     background-color: rgb(182 224 182);
+
+    @media screen and (max-width: 540px) {
+        font-size: 0.5rem;
+        padding: 2px 0;
+    }
 }
 
 .hero-summary__heading {
@@ -29,18 +39,30 @@
     font-size: 2.8rem;
     font-weight: 600;
     color: white;
+
+    @media screen and (max-width: 540px) {
+        font-size: 1.8rem;
+    }
 }
 
 .hero-summary__text {
     font-size: 1.2rem;
     color: #c8bbbb;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 540px) {
+        font-size: 0.6rem;
+    }
 }
 
 .hero-summary__list {
     list-style: none;
     padding: 0;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 540px) {
+        display: none;
+    }
 }
 
 .hero-summary__list-item {
@@ -68,8 +90,10 @@
     background-color: rgb(245, 245, 239);
 }
 
-.row .step-content, .row img {
-    padding: 0 0;
+.step img {
+    height: 400px;
+    display: block;
+    object-fit: cover;
 }
 
 .step-number {

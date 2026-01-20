@@ -293,7 +293,7 @@ body {
 
 @media (max-width: 1399.98px) {
   .container {
-    max-width: 1140px;
+    max-width: 1400px;
   }
   .row-cols-xxl-1 > * {
     flex: 0 0 auto;
