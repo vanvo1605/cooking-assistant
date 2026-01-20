@@ -9,7 +9,7 @@ export default class Home extends Component {
         {/* Hero */}
         <div className="hero-summary">
           <img
-            src="/assets/images/home-banner.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/images/home-banner.jpg`}
             alt="Home banner"
             className="hero-summary__banner"
           />
@@ -36,58 +36,58 @@ export default class Home extends Component {
         </div>
 
         {/* Step 1 */}
-        <div className="step row row-cols-2 row-cols-md-1">
+        <div className="step row row-cols-2 row-cols-sm-1">
           <div className="step-content col">
-            <p className="step-number">01</p>
-            <p className="step-heading">Add your ingredients</p>
-            <p className="step-desc">Type what's in your fridge or pantry.</p>
+            <p className="step__number">01</p>
+            <p className="step__heading">Add your ingredients</p>
+            <p className="step__desc">Type what's in your fridge or pantry.</p>
           </div>
           <img
-            src="/assets/images/ingredients.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/images/ingredients.jpg`}
             alt="Step 1 illustration photo"
           />
         </div>
 
         {/* Step 2 */}
-        <div className="step row row-cols-2 row-cols-md-1">
-          <img src="/assets/images/time.jpg" alt="Step 2 illustration photo" />
+        <div className="step row row-cols-2 row-cols-sm-1">
+          <img src={`${process.env.PUBLIC_URL}/assets/images/time.jpg`} alt="Step 2 illustration photo" />
           <div className="step-content col">
-            <p className="step-number">02</p>
-            <p className="step-heading">Choose your time</p>
-            <p className="step-desc">Select how much time you have to cook.</p>
+            <p className="step__number">02</p>
+            <p className="step__heading">Choose your time</p>
+            <p className="step__desc">Select how much time you have to cook.</p>
           </div>
         </div>
 
         {/* Step 3 */}
-        <div className="step row row-cols-2 row-cols-md-1">
+        <div className="step row row-cols-2 row-cols-sm-1">
           <div className="step-content col">
-            <p className="step-number">03</p>
-            <p className="step-heading">Get your recipe</p>
-            <p className="step-desc">
+            <p className="step__number">03</p>
+            <p className="step__heading">Get your recipe</p>
+            <p className="step__desc">
               We'll suggest a recipe you can make now.
             </p>
           </div>
           <img
-            src="/assets/images/recipe.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/images/recipe.jpg`}
             alt="Step 3 illustration photo"
           />
         </div>
 
         {/* Contact details */}
-        <div className="step row row-cols-2 row-cols-md-1">
+        <div className="contact row row-cols-2 row-cols-sm-1">
           <img
-            src="/assets/images/contact.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/images/contact.jpg`}
             alt="Contact details illustration photo"
           />
           <div className="contact-content col">
-            <p className="contact-heading">Contact details</p>
+            <p className="contact__heading">Contact details</p>
             <div className="row">
-              <p className="contact-email col">Email Address</p>
-              <p className="contact-info col">hongvant2@gmail.com</p>
+              <p className="contact__email col">Email Address</p>
+              <p className="contact__info col">hongvant2@gmail.com</p>
             </div>
             <div className="row">
-              <p className="contact-phone col">Phone Number</p>
-              <p className="contact-info col">(64) 22 643 3187</p>
+              <p className="contact__phone col">Phone Number</p>
+              <p className="contact__info col">(64) 22 643 3187</p>
             </div>
           </div>
           
