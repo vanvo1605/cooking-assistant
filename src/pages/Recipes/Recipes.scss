@@ -1,0 +1,82 @@
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding: 4px 5px;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #2d639e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #0069d9;
+    }
+}
+.search-page {
+  background-color: #f5f5ef;
+  padding: 40px 0;
+  min-height: 3000px;
+
+  &__heading {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  &__subheading {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    color: #666;
+  }
+}
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px auto;
+  padding: 40px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 4px rgba(132, 128, 128, 0.3);
+  background-color: white;
+
+  &__label {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    color: #444;
+  }
+  &__input {
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  &__select {
+    width: 100%;
+    padding: 4px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+
+  &__btn {
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #218838;
+    }
+  }
+}

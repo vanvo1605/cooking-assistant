@@ -76,12 +76,12 @@
   }
 
   &__list-item {
-    font-size: 2.8rem;
+    font-size: 1.6rem;
     color: #f0e3e3;
     padding: 1px 0;
 
     @include abstracts.screen(lg) {
-      font-size: 1.8rem;
+      font-size: 1rem;
     }
 
     @include abstracts.screen(sm) {
@@ -103,6 +103,12 @@
   border: 2px solid white;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    background-color: white;
+    color: rgb(29 62 29);
+  }
 
   @include abstracts.screen(lg) {
     font-size: 1.6rem;
@@ -143,7 +149,7 @@
   }
 }
 
-.step img {
+.step img, .contact img {
   height: 400px;
   display: block;
   object-fit: cover;
