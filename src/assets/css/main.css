@@ -1126,7 +1126,6 @@ body {
 
 .container {
   --grid-gutter-x: 0 !important;
-  padding: 0 !important;
 }
 
 .hero-summary {
@@ -1228,6 +1227,11 @@ body {
   border: 2px solid white;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.action-btn:hover {
+  background-color: white;
+  color: rgb(29, 62, 29);
 }
 @media (max-width: 991.98px) {
   .action-btn {
@@ -1267,7 +1271,7 @@ body {
   text-align: left;
 }
 
-.step img {
+.step img, .contact img {
   height: 400px;
   display: block;
   object-fit: cover;
